@@ -1,0 +1,36 @@
+{
+    "name": "product-catalog-api",
+    "version": "1.0.0",
+    "description": "RESTful API for an e-commerce product catalog system",
+    "main": "app.js",
+    "scripts": {
+        "start": "node app.js",
+        "dev": "nodemon app.js",
+        "test": "jest"
+    },
+    "keywords": [
+        "ecommerce",
+        "api",
+        "product",
+        "catalog",
+        "inventory",
+        "nodejs",
+        "express"
+    ],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "dotenv": "^16.0.3",
+        "express": "^4.18.2",
+        "express-validator": "^7.0.1",
+        "helmet": "^6.1.5",
+        "morgan": "^1.10.0",
+        "uuid": "^9.0.0"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0",
+        "nodemon": "^3.1.9",
+        "supertest": "^6.3.3"
+    }
+}
